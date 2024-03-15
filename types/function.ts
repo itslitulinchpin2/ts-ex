@@ -49,7 +49,7 @@
 
     //Rest parameter
     function addNumbers(...numbers:number[]):number{
-        return numbers.reduce((total:number,num:number)=>total+num,0)
+        return numbers.reduce((total:number,num)=>total+num,0)
     }
     console.log(addNumbers(1,2,3));
 
