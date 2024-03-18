@@ -1,4 +1,7 @@
 {
+    //클래스를 상속시키 않고 인터페이스를 넘겨주기
+    //커플링 발생 X
+    
     type CoffeeCup = {
         shots:number;
         hasMilk?:boolean;
