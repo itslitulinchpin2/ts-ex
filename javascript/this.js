@@ -39,3 +39,4 @@ caller2(); // bind했으므로 this는 Counter
 //bind를 쓰지 않으려면, 클래스에서 메소드를 
 //arrow function으로 처리해도 된다.
 //화살표 함수는 문맥을 유지시킨다.
+//()=>{}
